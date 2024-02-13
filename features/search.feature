@@ -7,3 +7,7 @@ Feature: Buy a movie tickets on site
         Given user is on the movie booking website
         When user buy a movie ticket on site
         Then user see his ticket
+    Scenario: User buy multiple movie tickets
+        Given user is on the movie booking website
+        When user buy a multiple movie tickets on site
+        Then user see his ticket
